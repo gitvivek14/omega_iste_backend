@@ -6,9 +6,7 @@ require("dotenv").config();
 
 const cors = require('cors')
 
-const registerroutes = require("../SERVER/routes/Registration")
-
-
+const registerroutes = require("./routes/Registration")
 const port =4000;
 
 app.use(express.json());
