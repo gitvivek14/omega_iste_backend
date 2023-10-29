@@ -9,7 +9,7 @@ const cors = require('cors')
 const registerroutes = require("../SERVER/routes/Registration")
 
 
-const port = process.env.PORT || 4000;
+const port =4000;
 
 app.use(express.json());
 app.use(cors({
