@@ -17,7 +17,7 @@ app.use(cors({
     credentials:true,
 }))
 
-require("../SERVER/config/database").connect();
+require("./config/database").connect();
 app.use("/api/v1",registerroutes);
 
 app.get("/",(req,res)=>{
